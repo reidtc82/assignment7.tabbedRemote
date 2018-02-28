@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B42774EE2046188D00C5ADB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42774ED2046188D00C5ADB1 /* AppDelegate.swift */; };
-		B42774F02046188D00C5ADB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42774EF2046188D00C5ADB1 /* ViewController.swift */; };
+		B42774F02046188D00C5ADB1 /* TVRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42774EF2046188D00C5ADB1 /* TVRemote.swift */; };
 		B42774F32046188D00C5ADB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42774F12046188D00C5ADB1 /* Main.storyboard */; };
 		B42774F52046188D00C5ADB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42774F42046188D00C5ADB1 /* Assets.xcassets */; };
 		B42774F82046188D00C5ADB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42774F62046188D00C5ADB1 /* LaunchScreen.storyboard */; };
 		B42775032046188D00C5ADB1 /* assignment7_tabbedRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42775022046188D00C5ADB1 /* assignment7_tabbedRemoteTests.swift */; };
 		B427750E2046188D00C5ADB1 /* assignment7_tabbedRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427750D2046188D00C5ADB1 /* assignment7_tabbedRemoteUITests.swift */; };
+		B427751C20461EF800C5ADB1 /* DVRRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427751B20461EF800C5ADB1 /* DVRRemote.swift */; };
+		B427751E20461F1C00C5ADB1 /* SettingsRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427751D20461F1C00C5ADB1 /* SettingsRemote.swift */; };
+		B427752020461F6A00C5ADB1 /* SettingsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427751F20461F6A00C5ADB1 /* SettingsDTO.swift */; };
+		B427752220461F9200C5ADB1 /* TvDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427752120461F9200C5ADB1 /* TvDTO.swift */; };
+		B427752420461FA000C5ADB1 /* DvrDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B427752320461FA000C5ADB1 /* DvrDTO.swift */; };
+		B4277526204621B500C5ADB1 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4277525204621B500C5ADB1 /* Favorite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		B42774EA2046188D00C5ADB1 /* assignment7.tabbedRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment7.tabbedRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42774ED2046188D00C5ADB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B42774EF2046188D00C5ADB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B42774EF2046188D00C5ADB1 /* TVRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVRemote.swift; sourceTree = "<group>"; };
 		B42774F22046188D00C5ADB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B42774F42046188D00C5ADB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B42774F72046188D00C5ADB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		B42775092046188D00C5ADB1 /* assignment7.tabbedRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment7.tabbedRemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B427750D2046188D00C5ADB1 /* assignment7_tabbedRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment7_tabbedRemoteUITests.swift; sourceTree = "<group>"; };
 		B427750F2046188D00C5ADB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B427751B20461EF800C5ADB1 /* DVRRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVRRemote.swift; sourceTree = "<group>"; };
+		B427751D20461F1C00C5ADB1 /* SettingsRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRemote.swift; sourceTree = "<group>"; };
+		B427751F20461F6A00C5ADB1 /* SettingsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDTO.swift; sourceTree = "<group>"; };
+		B427752120461F9200C5ADB1 /* TvDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvDTO.swift; sourceTree = "<group>"; };
+		B427752320461FA000C5ADB1 /* DvrDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DvrDTO.swift; sourceTree = "<group>"; };
+		B4277525204621B500C5ADB1 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				B42774ED2046188D00C5ADB1 /* AppDelegate.swift */,
-				B42774EF2046188D00C5ADB1 /* ViewController.swift */,
+				B42774EF2046188D00C5ADB1 /* TVRemote.swift */,
+				B427751D20461F1C00C5ADB1 /* SettingsRemote.swift */,
+				B427752120461F9200C5ADB1 /* TvDTO.swift */,
+				B427752320461FA000C5ADB1 /* DvrDTO.swift */,
+				B427751F20461F6A00C5ADB1 /* SettingsDTO.swift */,
+				B4277525204621B500C5ADB1 /* Favorite.swift */,
 				B42774F12046188D00C5ADB1 /* Main.storyboard */,
+				B427751B20461EF800C5ADB1 /* DVRRemote.swift */,
 				B42774F42046188D00C5ADB1 /* Assets.xcassets */,
 				B42774F62046188D00C5ADB1 /* LaunchScreen.storyboard */,
 				B42774F92046188D00C5ADB1 /* Info.plist */,
@@ -259,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B42774F02046188D00C5ADB1 /* ViewController.swift in Sources */,
+				B427752420461FA000C5ADB1 /* DvrDTO.swift in Sources */,
+				B4277526204621B500C5ADB1 /* Favorite.swift in Sources */,
+				B42774F02046188D00C5ADB1 /* TVRemote.swift in Sources */,
+				B427752220461F9200C5ADB1 /* TvDTO.swift in Sources */,
+				B427751C20461EF800C5ADB1 /* DVRRemote.swift in Sources */,
+				B427751E20461F1C00C5ADB1 /* SettingsRemote.swift in Sources */,
+				B427752020461F6A00C5ADB1 /* SettingsDTO.swift in Sources */,
 				B42774EE2046188D00C5ADB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
